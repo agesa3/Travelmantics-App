@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DealActivity">
+
+
+    <EditText
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/deal_title"
+        android:inputType="text"
+        android:layout_marginEnd="@dimen/margin_edt"
+        android:layout_marginStart="@dimen/margin_edt"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:hint="@string/price_numbers_only"
+        android:id="@+id/txtPrice"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_edt"
+        android:layout_marginEnd="@dimen/margin_edt"
+        android:layout_marginTop="@dimen/edt_top"
+        />
+    <EditText
+        android:hint="@string/description"
+        android:layout_marginTop="@dimen/edt_top"
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginStart="@dimen/margin_edt"
+        android:layout_marginEnd="@dimen/margin_edt"
+        />
+
+</LinearLayout>
