@@ -34,6 +34,7 @@
         android:layout_marginStart="@dimen/text_margin_standard"
         android:layout_marginTop="@dimen/text_margin_standard"
         android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPrice"
         app:layout_constraintStart_toEndOf="@+id/imageDeal"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
@@ -41,12 +42,13 @@
         android:id="@+id/tvPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/text_margin_standard"
-        android:layout_marginTop="@dimen/text_margin_standard"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvDescription"
+        android:textColor="@android:color/holo_orange_dark"
         android:textSize="@dimen/text_price"
-        android:textColor="@android:color/black"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toEndOf="@+id/tvDescription"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
 </androidx.constraintlayout.widget.ConstraintLayout>

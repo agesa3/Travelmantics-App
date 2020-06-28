@@ -5,5 +5,7 @@
     <string name="price_numbers_only">Price(Numbers Only)</string>
     <string name="save">Save</string>
     <string name="delete_deal">Delete Deal</string>
+    <string name="log_out">Log Out</string>
+
 
 </resources>
